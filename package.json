@@ -1,0 +1,25 @@
+{
+  "name": "hubot-where-are-you",
+  "description": "A hubot script for revealing what and where a bot is running",
+  "version": "0.0.1",
+  "author": "Ian Katz <ifreecarve@gmail.com>",
+  "license": "Apache 2.0",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ifreecarve/hubot-where-are-you.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ifreecarve/hubot-where-are-you/issues"
+  },
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "hubot": "2.x"
+  },
+  "main": "index.coffee"
+}
