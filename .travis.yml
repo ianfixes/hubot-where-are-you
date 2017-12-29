@@ -1,0 +1,18 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - "5"
+  - "node"
+
+install:
+  - npm install
+
+script:
+  # Output useful info for debugging
+  - node --version
+  - npm --version
+  # Run tests
+  # - npm test # handled by coverage anyway, why duplicate effort
+  - npm test
