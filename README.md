@@ -1,4 +1,6 @@
 # hubot-where-are-you
+[![npm version](https://badge.fury.io/js/hubot-where-are-you.svg)](https://badge.fury.io/js/hubot-where-are-you)
+[![Build Status](https://travis-ci.org/ifreecarve/hubot-where-are-you.svg)](https://travis-ci.org/ifreecarve/hubot-where-are-you)
 
 A hubot script for revealing what and where a bot is running
 
