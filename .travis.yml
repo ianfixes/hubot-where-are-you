@@ -1,0 +1,14 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - "node"
+
+install:
+  - npm install
+
+script:
+  - node --version
+  - npm --version
+  - npm test

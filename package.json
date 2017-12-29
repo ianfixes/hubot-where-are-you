@@ -4,6 +4,9 @@
   "version": "0.0.1",
   "author": "Ian Katz <ifreecarve@gmail.com>",
   "license": "Apache 2.0",
+  "scripts": {
+    "test": "coffeelint index.coffee src/"
+  },
   "keywords": [
     "hubot",
     "hubot-scripts"
@@ -16,10 +19,11 @@
     "url": "https://github.com/ifreecarve/hubot-where-are-you/issues"
   },
   "peerDependencies": {
-    "hubot": "2.x"
+    "hubot": "^2.19.0"
   },
   "devDependencies": {
-    "hubot": "2.x"
+    "coffeelint": "^2.0.7",
+    "hubot": "^2.19.0"
   },
   "main": "index.coffee"
 }
