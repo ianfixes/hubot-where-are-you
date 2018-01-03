@@ -48,12 +48,12 @@ ip = determineLastOctet()
 
 module.exports = (robot) ->
 
-  robot.respond /where are you/, (msg) ->
+  robot.respond /where are you/i, (msg) ->
     msg.send "I'm running on #{host}\nMy git repo URL is:\n>#{repo}"
 
-  robot.hear /all bots report in/, (msg) ->
+  robot.hear /all bots report in/i, (msg) ->
     msg.send "@#{robot.name} standing by"
 
-  robot.hear /all wings report in/, (msg) ->
+  robot.hear /all wings report in/i, (msg) ->
     callsign = if ip? then "Red #{ip}" else "@#{robot.name}"
     msg.send "#{callsign} standing by"
