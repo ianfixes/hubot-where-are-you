@@ -1,7 +1,7 @@
 {
   "name": "hubot-where-are-you",
   "description": "A hubot script for revealing what and where a bot is running",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Ian Katz <ifreecarve@gmail.com>",
   "license": "Apache 2.0",
   "scripts": {

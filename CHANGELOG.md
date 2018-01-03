@@ -18,19 +18,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Security
 
 
+## [0.0.3] - 2018-01-03
+### Fixed
+- Case sensitivity is turned off
+
 ## [0.0.2] - 2017-12-29
 ### Added
- - Handling for failure of `git` command for the repo URL
- - Ability to specify environment variable for repo URL
- - CI for project
- - `all bots report in` response
- - `all wings report in` response
+- Handling for failure of `git` command for the repo URL
+- Ability to specify environment variable for repo URL
+- CI for project
+- `all bots report in` response
+- `all wings report in` response
 
 ## [0.0.1] - 2016-11-28
 ### Added
 - "where are you" hubot command
 
 
-[Unreleased]: https://github.com/ifreecarve/macramoji/compare/v0.0.2...HEAD
+[Unreleased]: https://github.com/ifreecarve/macramoji/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/ifreecarve/macramoji/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/ifreecarve/macramoji/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/ifreecarve/macramoji/compare/v0.0.0...v0.0.1
